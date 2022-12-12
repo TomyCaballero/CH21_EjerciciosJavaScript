@@ -1,5 +1,5 @@
 //Tarea 1
-// EJERCICIO 1
+// Ejercicio 1
 //definir evento
 btnResultado1.addEventListener("click", function (event){
     event.preventDefault();
@@ -14,3 +14,13 @@ btnResultado1.addEventListener("click", function (event){
 
 
 console.log(Math.max(3, 5, 7, 1, 6));})
+
+//Ejercicio 2
+btnResultado2.addEventListener("click", function (event){
+    event.preventDefault();
+
+    let menor = Math.min(-1, 3, 4, 2, 6)
+
+    let resultado = document.getElementById("alertResultado2");
+    resultado.innerHTML = "El número menor del arreglo es: " + "<strong>" + menor + "</strong>";
+})
